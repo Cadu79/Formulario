@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Formulário de Contato</h2>
+        <form action="">
+       <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" required>
+       </div>
+       <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required>
+       </div>
+       <div class="form-group">
+        <label for="message">Mensagem:</label>
+        <textarea type="message" name="message" id="message" rows="4" required></textarea>
+       </div>
+       <button type="submit">Enviar</button>
+    </form>
+    <div id="sucessMessage" class="hidden">Mensagem enviadada com sucesso!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
